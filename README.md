@@ -43,3 +43,6 @@ pila.añadirDatos("V")
 pila.añadirDatos("W")
 pila.eliminarDatos()
 pila.añadirDatos("R")
+
+# ¿Con cuántos elementos quedó la pila?: La pila terminó con 2 elementos.
+# ¿Hubo algún caso de error (desbordamiento o subdesbordamiento)?: Sí, en este código hubo un caso de subdesbordamiento, ya que en unas situaciones que se querían eliminar elementos, no quedaban elementos para eliminar porque la pila se encontraba vacía así que por eso saca el mensaje "La pila está vacía, no hay datos que eliminar".
